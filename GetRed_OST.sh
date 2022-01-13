@@ -24,6 +24,8 @@ cd $HOME/Red
 zypper in -y wget
 wget https://static.red-lang.org/dl/linux/red-064
 chmod +x red-064
-./red-064
-echo "done"
+echo "The Red language (and its dependencies) has been installed"
+echo "Please go to /root/Red and execute the cimpiler binary"
+echo "by using the command (as root): ./red-064"
+echo "YOUR RED LANGUAGE PROGRAMS WILL NOT WORK UNTIL YOU DO"
 
