@@ -2,6 +2,7 @@
 # Title: GetRed_OST.sh
 # Description: Installs Red Language and dependencies on OpenSUSE Tumbleweed
 # Version: 0.1 (BETA)
+# Date: 13JAN22
 # Author: Chase Crum
 # Contact: chase.crum@suse.com
 # License: GetRed is licensed under the GNU Affero General Public License v3.0
