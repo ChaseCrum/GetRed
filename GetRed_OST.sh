@@ -13,4 +13,5 @@ zypper ref
 zypper in -y patterns-base-32bit
 
 # install dependencies
-zypper in -y libgdk_pixbuff-2_0-0 libgdk_pixbuff-2_0-0-32bit libgtk-3 libgtk-3-32bit
+zypper in -y libgdk_pixbuf-2_0-0 libgdk_pixbuf-2_0-0-32bit
+zypper in -y libgtk-3-0 libgtk-3-0-32bit
