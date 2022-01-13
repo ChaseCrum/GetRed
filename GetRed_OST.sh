@@ -17,10 +17,13 @@ zypper in -y libgdk_pixbuf-2_0-0 libgdk_pixbuf-2_0-0-32bit
 zypper in -y libgtk-3-0 libgtk-3-0-32bit
 zypper in -y glibc libcurl4 libcurl4-32bit 
 
-# download Red Language binary
+### download and install Red Language binary
 mkdir $HOME/Red
 cd $HOME/Red
 # let's make sure wget is installed, not found in some vagrant boxes
 zypper in -y wget
 wget https://static.red-lang.org/dl/linux/red-064
+chmod +x red-064
+./red-064
+echo "done"
 
