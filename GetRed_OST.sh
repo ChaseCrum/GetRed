@@ -15,3 +15,10 @@ zypper in -y patterns-base-32bit
 # install dependencies
 zypper in -y libgdk_pixbuf-2_0-0 libgdk_pixbuf-2_0-0-32bit
 zypper in -y libgtk-3-0 libgtk-3-0-32bit
+zypper in -y glibc libcurl 
+
+# download Red Language binary
+mkdir $HOME/Red
+cd $HOME/Red
+wget https://static.red-lang.org/dl/linux/red-064
+
