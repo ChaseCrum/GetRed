@@ -20,5 +20,7 @@ zypper in -y glibc libcurl4 libcurl4-32bit
 # download Red Language binary
 mkdir $HOME/Red
 cd $HOME/Red
+# let's make sure wget is installed, not found in some vagrant boxes
+zypper in -y wget
 wget https://static.red-lang.org/dl/linux/red-064
 
