@@ -23,8 +23,8 @@ mkdir $HOME/Red
 cd $HOME/Red
 # let's make sure wget is installed, not found in some vagrant boxes
 zypper in -y wget
-wget https://static.red-lang.org/dl/linux/red-064
-chmod +x red-064
+wget https://static.red-lang.org/dl/auto/linux/red-latest
+chmod
 
 ### must install rebol/view for GUI applications or get vew has no value error
 
